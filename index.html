@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lavanya Warang — AI/ML Engineer &amp; Software Developer</title>
+<meta name="description" content="Portfolio of Lavanya Santosh Warang — AI/ML Engineering student, full-stack developer and data-driven builder based in Pune, India.">
+<meta name="keywords" content="Lavanya Warang, AI ML Engineer, Software Developer, Python, Django, Machine Learning, Portfolio">
+<meta name="author" content="Lavanya Santosh Warang">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Lavanya Warang — AI/ML Engineer & Software Developer">
+<meta property="og:description" content="AI/ML Engineering student building data-driven applications and responsive web platforms.">
+<meta property="og:site_name" content="Lavanya Warang Portfolio">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%2358D68D%22>L</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===================== LOADER ===================== -->
+<div id="loader" aria-hidden="true">
+  <span class="loader-mark">INITIALIZING PORTFOLIO</span>
+  <div class="loader-bar-track"><div class="loader-bar-fill" id="loaderFill"></div></div>
+  <div class="loader-percent" id="loaderPercent">0</div>
+</div>
+
+<div id="scroll-progress"></div>
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+<div id="cursor-glow"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ===================== NAVBAR ===================== -->
+<header id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="logo">lavanya<span>.dev</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#resume" class="nav-cta">Resume</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero">
+  <canvas id="particle-canvas"></canvas>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <div class="hero-kicker"><span class="dot"></span> AVAILABLE FOR INTERNSHIPS · PUNE, INDIA</div>
+      <h1 class="hero-name">
+        <span class="line"><span>Lavanya</span></span>
+        <span class="line"><span>Warang.</span></span>
+      </h1>
+      <div class="hero-type"><span id="typewriter"></span><span class="caret"></span></div>
+      <p class="hero-desc">AI/ML Engineering student (CGPA 8.57/10) who builds data-driven applications and full-stack web platforms — from Django backends to scikit-learn models. Currently looking for a software development or data science internship.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Projects <span class="ico"><i class="fa-solid fa-arrow-right"></i></span></a>
+        <a href="#contact" class="btn btn-ghost">Get In Touch <span class="ico"><i class="fa-solid fa-arrow-right"></i></span></a>
+      </div>
+      <div class="hero-socials">
+        <a class="social-btn" href="https://github.com/lavanya826" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a class="social-btn" href="#" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a class="social-btn" href="mailto:lavanyawarang2@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="orbit-card glass">
+        <div class="avatar-ring"><div class="avatar-inner">LW</div></div>
+        <h3>Lavanya S. Warang</h3>
+        <p>AI/ML Engineering Student</p>
+        <div class="orbit-stats">
+          <div><b>8.57</b><span>CGPA</span></div>
+          <div><b>3</b><span>Projects</span></div>
+          <div><b>5</b><span>Certifications</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue"><span>SCROLL</span><div class="wheel"></div></div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section id="about">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 01 About</div>
+    <h2 class="section-title reveal">Engineering intelligent, human-friendly software.</h2>
+    <div class="about-grid">
+      <div class="about-card glass reveal">
+        <div class="frame"><span class="initials">LW</span></div>
+      </div>
+      <div class="about-text reveal">
+        <p><strong>I'm Lavanya, an AI/ML Engineering student</strong> at Zeal College of Engineering, Pune, currently maintaining an 8.57/10 CGPA. I build things at the intersection of machine learning and full-stack web development — from data pipelines in Python to responsive interfaces in Django and vanilla JavaScript.</p>
+        <p>During my internship as an <strong>AI Web Developer at Inamigos Foundation</strong>, I contributed to end-to-end feature development in an agile team, helping ship AI-integrated web functionality while coordinating deliverables across a cross-functional group.</p>
+        <p>I'm most energized by turning messy data and rough ideas into working, usable products — and I'm currently seeking a software development or data science internship where I can keep doing exactly that.</p>
+        <div class="about-stats">
+          <div class="stat-box glass"><b data-counter="8.57" data-decimal="true">0</b><span>CGPA / 10.0</span></div>
+          <div class="stat-box glass"><b data-counter="3">0</b><span>Projects Shipped</span></div>
+          <div class="stat-box glass"><b data-counter="1">0</b><span>Internship</span></div>
+        </div>
+        <div class="about-tags">
+          <span class="tag">Python</span><span class="tag">Machine Learning</span><span class="tag">Django</span>
+          <span class="tag">JavaScript</span><span class="tag">Data Analytics</span><span class="tag">SQL</span>
+          <span class="tag">Power BI</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section id="skills">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 02 Skills</div>
+    <h2 class="section-title reveal">Tools I reach for.</h2>
+    <p class="section-sub reveal">A blend of programming fundamentals, machine-learning tooling, and full-stack web development.</p>
+    <div class="skills-layout">
+      <div class="skill-bars reveal">
+        <div class="skill-row"><div class="top"><span>Python</span><span>92%</span></div><div class="bar-track"><div class="bar-fill" data-width="92"></div></div></div>
+        <div class="skill-row"><div class="top"><span>Machine Learning (Scikit-learn)</span><span>85%</span></div><div class="bar-track"><div class="bar-fill" data-width="85"></div></div></div>
+        <div class="skill-row"><div class="top"><span>JavaScript</span><span>82%</span></div><div class="bar-track"><div class="bar-fill" data-width="82"></div></div></div>
+        <div class="skill-row"><div class="top"><span>Django</span><span>80%</span></div><div class="bar-track"><div class="bar-fill" data-width="80"></div></div></div>
+        <div class="skill-row"><div class="top"><span>SQL / MySQL / MongoDB</span><span>78%</span></div><div class="bar-track"><div class="bar-fill" data-width="78"></div></div></div>
+        <div class="skill-row"><div class="top"><span>HTML5 &amp; CSS3</span><span>90%</span></div><div class="bar-track"><div class="bar-fill" data-width="90"></div></div></div>
+        <div class="skill-row"><div class="top"><span>C++</span><span>70%</span></div><div class="bar-track"><div class="bar-fill" data-width="70"></div></div></div>
+      </div>
+      <div class="skill-circles">
+        <div class="circle-card glass reveal-scale">
+          <div class="circle-wrap"><svg viewBox="0 0 96 96"><circle class="circle-bg" cx="48" cy="48" r="42"></circle><circle class="circle-fg" cx="48" cy="48" r="42" data-pct="88"></circle></svg><div class="circle-label">88%</div></div>
+          <h4>Data Analysis</h4>
+        </div>
+        <div class="circle-card glass reveal-scale">
+          <div class="circle-wrap"><svg viewBox="0 0 96 96"><circle class="circle-bg" cx="48" cy="48" r="42"></circle><circle class="circle-fg" cx="48" cy="48" r="42" data-pct="80"></circle></svg><div class="circle-label">80%</div></div>
+          <h4>REST APIs</h4>
+        </div>
+        <div class="circle-card glass reveal-scale">
+          <div class="circle-wrap"><svg viewBox="0 0 96 96"><circle class="circle-bg" cx="48" cy="48" r="42"></circle><circle class="circle-fg" cx="48" cy="48" r="42" data-pct="75"></circle></svg><div class="circle-label">75%</div></div>
+          <h4>Power BI</h4>
+        </div>
+        <div class="circle-card glass reveal-scale">
+          <div class="circle-wrap"><svg viewBox="0 0 96 96"><circle class="circle-bg" cx="48" cy="48" r="42"></circle><circle class="circle-fg" cx="48" cy="48" r="42" data-pct="85"></circle></svg><div class="circle-label">85%</div></div>
+          <h4>Git &amp; GitHub</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 03 Services</div>
+    <h2 class="section-title reveal">Where I can help.</h2>
+    <p class="section-sub reveal">Areas I've worked in through coursework, internship, and personal projects.</p>
+    <div class="services-grid">
+      <div class="service-card glass reveal-scale"><span class="num">01</span><div class="ico"><i class="fa-solid fa-code"></i></div><h3>Web Development</h3><p>Responsive, full-stack platforms built with Django, HTML/CSS/JS, and MySQL — from data models to polished UI.</p></div>
+      <div class="service-card glass reveal-scale"><span class="num">02</span><div class="ico"><i class="fa-solid fa-brain"></i></div><h3>AI / ML Development</h3><p>Regression, classification, and EDA workflows using Scikit-learn, NumPy and Pandas to turn data into decisions.</p></div>
+      <div class="service-card glass reveal-scale"><span class="num">03</span><div class="ico"><i class="fa-solid fa-chart-line"></i></div><h3>Data Analytics</h3><p>Exploratory analysis and reporting with Power BI and SQL, focused on clear, actionable insight.</p></div>
+      <div class="service-card glass reveal-scale"><span class="num">04</span><div class="ico"><i class="fa-solid fa-palette"></i></div><h3>UI/UX Design</h3><p>Accessible, user-facing interfaces designed for clarity — informed by real internship feature work.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE TIMELINE ===================== -->
+<section id="experience">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 04 Experience</div>
+    <h2 class="section-title reveal">Where I've worked.</h2>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card glass">
+          <span class="tl-date">MAY 2025 — JUN 2025 · 1 MONTH</span>
+          <h3>AI Web Developer Intern</h3>
+          <h4>Inamigos Foundation</h4>
+          <ul>
+            <li>Developed and maintained AI-integrated web features, contributing to end-to-end project execution using Python and frontend technologies.</li>
+            <li>Coordinated cross-functional tasks and deliverables within an agile team environment, ensuring timely project milestones.</li>
+            <li>Assisted in designing user-facing interfaces and optimizing web content workflows for improved accessibility and usability.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EDUCATION ===================== -->
+<section id="education">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 05 Education</div>
+    <h2 class="section-title reveal">Academic background.</h2>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card glass">
+          <span class="tl-date">2023 — 2027</span>
+          <h3>B.E. — Artificial Intelligence &amp; Machine Learning</h3>
+          <h4>Zeal College of Engineering, Pune, India</h4>
+          <ul>
+            <li>Current CGPA: 8.57 / 10.0</li>
+            <li>Selected among top teams at institutional level for Smart India Hackathon (SIH) 2025.</li>
+            <li>Coursework spanning machine learning, data structures, databases and full-stack development.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section id="projects">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 06 Projects</div>
+    <h2 class="section-title reveal">Selected work.</h2>
+    <p class="section-sub reveal">A few things I've designed, built and shipped.</p>
+
+    <div class="filter-row reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="web">Web Dev</button>
+      <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+    </div>
+
+    <div class="projects-grid">
+      <div class="project-card glass reveal-scale" data-cat="fullstack">
+        <div class="project-media"><span class="glyph">IA</span>
+          <div class="project-overlay">
+            <a class="ov-btn" href="https://lavanya826.github.io/InAmigos_Foundation/" target="_blank" rel="noopener" aria-label="Live demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a class="ov-btn" href="https://github.com/lavanya826" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>Python</span><span>Django</span><span>JS</span></div>
+          <h3>InAmigos Community Platform</h3>
+          <p>Community-focused web platform built during my internship at Inamigos Foundation, supporting user engagement and content-sharing features.</p>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal-scale" data-cat="fullstack">
+        <div class="project-media"><span class="glyph">EC</span>
+          <div class="project-overlay">
+            <a class="ov-btn" href="#" aria-label="Live demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a class="ov-btn" href="https://github.com/lavanya826" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>Django</span><span>MySQL</span><span>HTML/CSS</span></div>
+          <h3>E-Content Management System</h3>
+          <p>Full-stack platform for structured upload, organization and retrieval of 100+ e-learning resources, with a search-and-filter CRUD system for admins.</p>
+        </div>
+      </div>
+
+      <div class="project-card glass reveal-scale" data-cat="web">
+        <div class="project-media"><span class="glyph">PF</span>
+          <div class="project-overlay">
+            <a class="ov-btn" href="https://lavanya826.github.io/Portfolio/" target="_blank" rel="noopener" aria-label="Live demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            <a class="ov-btn" href="https://github.com/lavanya826" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+          <h3>Personal Portfolio Website</h3>
+          <p>Fully responsive personal portfolio showcasing projects, certifications and skills, deployed on GitHub Pages.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CERTIFICATIONS ===================== -->
+<section id="certifications">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 07 Certifications</div>
+    <h2 class="section-title reveal">Certifications &amp; recognition.</h2>
+    <div class="cert-grid">
+      <div class="cert-card glass reveal"><div class="badge"><i class="fa-solid fa-trophy"></i></div><div><h4>Smart India Hackathon (SIH) 2025</h4><p>Selected among top teams at institutional level for the national-level innovation challenge.</p></div></div>
+      <div class="cert-card glass reveal"><div class="badge"><i class="fa-solid fa-database"></i></div><div><h4>NPTEL Data Mining — Elite Certification</h4><p>Scored 75% · IIT Kharagpur. Validated expertise in data mining algorithms and applications.</p></div></div>
+      <div class="cert-card glass reveal"><div class="badge"><i class="fa-brands fa-aws"></i></div><div><h4>AWS Cloud Technical Essentials</h4><p>Amazon Web Services — foundational cloud architecture and deployment concepts.</p></div></div>
+      <div class="cert-card glass reveal"><div class="badge"><i class="fa-solid fa-chart-simple"></i></div><div><h4>Power BI for Beginners</h4><p>Data visualization and business intelligence reporting fundamentals.</p></div></div>
+      <div class="cert-card glass reveal"><div class="badge"><i class="fa-solid fa-robot"></i></div><div><h4>GenAI-Powered Data Analytics Job Simulation</h4><p>Practical application of generative AI within real-world analytics workflows.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ACHIEVEMENTS ===================== -->
+<section id="achievements">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 08 Achievements</div>
+    <h2 class="section-title reveal">By the numbers.</h2>
+    <div class="ach-grid">
+      <div class="ach-card glass reveal-scale"><div class="counter" data-counter="8.57" data-decimal="true">0</div><p>CGPA (out of 10.0)</p></div>
+      <div class="ach-card glass reveal-scale"><div class="counter" data-counter="3">0</div><p>Projects Delivered</p></div>
+      <div class="ach-card glass reveal-scale"><div class="counter" data-counter="5">0</div><p>Certifications Earned</p></div>
+      <div class="ach-card glass reveal-scale"><div class="counter" data-counter="100" data-suffix="+">0</div><p>E-Learning Resources Organized</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== GITHUB STATS ===================== -->
+<section id="github-stats">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 09 GitHub</div>
+    <h2 class="section-title reveal">Code &amp; contributions.</h2>
+    <p class="section-sub reveal">Live stats pulled directly from GitHub.</p>
+    <div class="gh-grid">
+      <div class="gh-card glass reveal" id="ghStatsCard">
+        <img loading="lazy" id="ghStatsImg" src="https://github-readme-stats.vercel.app/api?username=lavanya826&show_icons=true&theme=dark&hide_border=true&bg_color=0B3D2E00&title_color=58D68D&icon_color=58D68D&text_color=F4F8F6" alt="Lavanya's GitHub stats">
+        <div class="gh-fallback" id="ghStatsFallback" hidden>
+          <div class="gh-fallback-icon"><i class="fa-brands fa-github"></i></div>
+          <h4>GitHub Stats</h4>
+          <p>Live stats couldn't load in this environment. View them directly on GitHub.</p>
+        </div>
+      </div>
+      <div class="gh-card glass reveal" id="ghLangCard">
+        <img loading="lazy" id="ghLangImg" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lavanya826&layout=compact&theme=dark&hide_border=true&bg_color=0B3D2E00&title_color=58D68D&text_color=F4F8F6" alt="Lavanya's most used languages">
+        <div class="gh-fallback" id="ghLangFallback" hidden>
+          <div class="gh-fallback-icon"><i class="fa-solid fa-code"></i></div>
+          <h4>Top Languages</h4>
+          <p>Python · JavaScript · HTML · CSS</p>
+        </div>
+        <div class="gh-link-row"><a class="btn btn-ghost" href="https://github.com/lavanya826" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i>&nbsp; View Full Profile</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TECH STACK MARQUEE ===================== -->
+<section id="techstack">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 10 Stack</div>
+    <h2 class="section-title reveal">Technologies I work with.</h2>
+  </div>
+  <div class="marquee reveal">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="tech-chip glass"><i class="fa-brands fa-python"></i><span>Python</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-diagram-project"></i><span>Scikit-learn</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-server"></i><span>Django</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-leaf"></i><span>MongoDB</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-chart-simple"></i><span>Power BI</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+      <!-- duplicate for seamless loop -->
+      <div class="tech-chip glass"><i class="fa-brands fa-python"></i><span>Python</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-diagram-project"></i><span>Scikit-learn</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-server"></i><span>Django</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-node-js"></i><span>Node.js</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-leaf"></i><span>MongoDB</span></div>
+      <div class="tech-chip glass"><i class="fa-solid fa-chart-simple"></i><span>Power BI</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+      <div class="tech-chip glass"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HIGHLIGHTS CAROUSEL ===================== -->
+<section id="highlights">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 11 Highlights</div>
+    <h2 class="section-title reveal">Impact highlights.</h2>
+    <div class="carousel reveal">
+      <div class="carousel-track">
+        <div class="carousel-slides" id="carouselSlides">
+          <div class="slide"><div class="slide-card glass"><span class="quote-mark">“</span><p>Helped ship AI-integrated web features end-to-end during a fast-moving internship, coordinating with a cross-functional agile team to hit every milestone on time.</p><div class="who"><b>Inamigos Foundation</b><span>AI Web Developer Internship, 2025</span></div></div></div>
+          <div class="slide"><div class="slide-card glass"><span class="quote-mark">“</span><p>Built a full-stack content system that made 100+ e-learning resources searchable and easy to manage — turning a manual workflow into a structured CRUD platform.</p><div class="who"><b>E-Content Management System</b><span>Personal Project</span></div></div></div>
+          <div class="slide"><div class="slide-card glass"><span class="quote-mark">“</span><p>Selected among the top teams at the institutional level for Smart India Hackathon 2025 — one step toward the national innovation challenge.</p><div class="who"><b>Smart India Hackathon</b><span>2025</span></div></div></div>
+        </div>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== RESUME ===================== -->
+<section id="resume">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 12 Resume</div>
+    <h2 class="section-title reveal">Get the full picture.</h2>
+    <div class="resume-panel glass reveal">
+      <div class="resume-info">
+        <h3>Lavanya Santosh Warang</h3>
+        <p>Download my resume for a complete overview of my education, internship experience, projects, technical skills and certifications.</p>
+        <a class="btn btn-primary" href="#contact" id="resumeDownloadBtn"><i class="fa-solid fa-download"></i>&nbsp; Download CV</a>
+        <p style="margin-top:14px;font-size:.78rem;color:var(--text-faint);">To enable a real download, add your resume PDF to <code>assets/</code> and point this button's <code>href</code> at it.</p>
+      </div>
+      <div class="resume-preview">
+        <div class="doc-line accent"></div>
+        <div class="doc-line w2"></div>
+        <div class="doc-line w1"></div>
+        <div class="doc-line w3"></div>
+        <div class="doc-line w4"></div>
+        <div class="doc-line accent" style="margin-top:18px;"></div>
+        <div class="doc-line w1"></div>
+        <div class="doc-line w2"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section id="contact">
+  <div class="container">
+    <div class="eyebrow"><span class="comment">//</span> 13 Contact</div>
+    <h2 class="section-title reveal">Let's build something.</h2>
+    <p class="section-sub reveal">Open to software development and data science internship opportunities.</p>
+    <div class="contact-grid">
+      <div class="contact-info reveal">
+        <div class="contact-info-item"><div class="ico"><i class="fa-solid fa-envelope"></i></div><div><b>Email</b><a href="mailto:lavanyawarang2@gmail.com">lavanyawarang2@gmail.com</a></div></div>
+        <div class="contact-info-item"><div class="ico"><i class="fa-solid fa-phone"></i></div><div><b>Phone</b><span>+91-7420837910</span></div></div>
+        <div class="contact-info-item"><div class="ico"><i class="fa-solid fa-location-dot"></i></div><div><b>Location</b><span>Pune, Maharashtra, India</span></div></div>
+        <div class="map-placeholder"><span><i class="fa-solid fa-map-location-dot"></i> Pune, Maharashtra — 411xxx</span></div>
+      </div>
+      <form class="contact-form glass reveal" id="contactForm">
+        <div class="form-row">
+          <div class="field"><input type="text" id="cName" required autocomplete="name"><label for="cName">Your Name</label><span class="underline"></span></div>
+          <div class="field"><input type="email" id="cEmail" required autocomplete="email"><label for="cEmail">Your Email</label><span class="underline"></span></div>
+        </div>
+        <div class="field"><input type="text" id="cSubject" required><label for="cSubject">Subject</label><span class="underline"></span></div>
+        <div class="field"><textarea id="cMessage" rows="5" required></textarea><label for="cMessage">Message</label><span class="underline"></span></div>
+        <p class="form-note">This form opens your email client with the message pre-filled — nothing is sent from this page directly.</p>
+        <button type="submit" class="btn btn-primary">Send Message <span class="ico"><i class="fa-solid fa-paper-plane"></i></span></button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#hero" class="logo">lavanya<span>.dev</span></a>
+        <p>AI/ML Engineering student building data-driven applications and responsive web platforms, one commit at a time.</p>
+      </div>
+      <div class="footer-col">
+        <h5>QUICK LINKS</h5>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h5>ELSEWHERE</h5>
+        <a href="https://github.com/lavanya826" target="_blank" rel="noopener">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="mailto:lavanyawarang2@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Lavanya Santosh Warang. All rights reserved.</p>
+      <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </div>
+</footer>
+
+<div id="toast"><i class="fa-solid fa-circle-check"></i><span id="toastMsg"></span></div>
+
+<script src="script.js"></script>
+</body>
+</html>
