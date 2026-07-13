@@ -23,11 +23,4 @@ portfolio/
 | E-Content Management System live link | `index.html` | search `E-Content Management System` — the demo link is currently `#` |
 | GitHub username | already set to `lavanya826` (verified) | only change if you use a different handle |
 
-## Running locally
-Just double-click `index.html`, or serve it with any static server, e.g.:
-```
-npx serve .
-```
 
-## Deploying
-Drag the `portfolio` folder into [Netlify Drop](https://app.netlify.com/drop), or push it to a repo and enable GitHub Pages — no build step needed.
