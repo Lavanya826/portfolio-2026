@@ -5,6 +5,7 @@
 ### A modern, responsive portfolio website showcasing my skills, projects, certifications, and journey as an **Artificial Intelligence & Machine Learning Student**.
 
 🌐 **HTML5** • 🎨 **CSS3** • ⚡ **JavaScript**
+(https://lavanya826.github.io/portfolio-2026/)
 
 </div>
 
